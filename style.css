@@ -1,0 +1,168 @@
+body {
+    margin:auto 0;
+    font-family: 'Lato', sans-serif;
+    background-image: url("img/pattern.png");
+    color:black;
+}
+
+ /**********************************************************************
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ***********************************************************************/
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+
+.header {
+    display:flex;
+    width:100%;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+.main-nav {
+	display:flex;
+	list-style-type:none;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.8em;
+        padding: 0px;}
+    li { padding:5px;}
+}
+
+@media only screen and (max-width: 374px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0px;}
+    li { padding:5px;}
+}
+
+.main-nav > li{ 
+	color:black;
+	padding:10px;
+}
+
+.nav-right {
+	display:flex;
+	margin-left:auto;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+
+ .cover {
+ 	height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+ }
+
+ .cover_img {
+ 	width:auto;
+    height: 70vh; 
+ }
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.tile {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap:10px;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.tiles {
+    background-color: white;
+    padding: 50px;
+    margin:50px;
+
+}
+
+.tiles img {
+     
+    width:100%;
+    height: auto;
+    transition: all 2s ease-in-out;
+}
+
+figcaption {
+    text-align:center;
+    font-size: 1,5em;
+    text-transform: uppercase;
+}
+
+.tiles:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+.zone {
+   cursor:pointer;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #b4ffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #b4ffff 0%, #58d3ff 44%, #3372d1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4ffff), color-stop(44%,#58d3ff), color-stop(100%,#3372d1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #b4ffff 0%,#58d3ff 44%,#3372d1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #b4ffff%,#58d3ff 44%,#3372d1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #b4ffff 0%,#58d3ff 44%,#3372d1 100%); /* IE10+ */
+    background: linear-gradient(top, #b4ffff 0%,#58d3ff 44%,#3372d1 100%); /* W3C */
+}
+/***********************************************************************
+ *  footer
+ **********************************************************************/
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center
+    width:100%;
+    padding: 10px
+    font-size:0,8em;
+
+}
+
+
+
+
+
