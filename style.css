@@ -18,8 +18,7 @@ body {
     display:flex;
     width:100%;
     margin:0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 
 .sticky {
@@ -28,10 +27,18 @@ body {
 	top:0;
 }
 
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+
 .main-nav {
 	display:flex;
 	list-style-type:none;
-    padding: 10px;
+    padding: 5px;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,6 +82,7 @@ a{
     align-items: center;
     justify-content: center;
     padding: auto;
+    margin-top: 120px;
  }
 
  .cover_img {
