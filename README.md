@@ -1,3 +1,6 @@
 # futuria4u
+This project is one of my early web development works. It was created as part of my learning process to explore and practice fundamental web development skills. The project demonstrates basic HTML, CSS, and JavaScript techniques.
 
-This website is created for estate developers, showcasing only the first page. It features my own design, including colors, logos, and utilizes flexbox techniques.
+Technologies Used: 
+      HTML: Structure of the website.
+      CSS: Styling and layout.
